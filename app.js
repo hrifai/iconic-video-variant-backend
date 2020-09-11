@@ -12,7 +12,4 @@ app.listen(process.env.PORT, () => {
     console.log(`SERVER LISTENING ON PORT ${process.env.PORT}`);
 });
 
-// module.exports = app;
-//@todo add tests
-//@todo commit to git
-//@todo add readme
+module.exports = app;
